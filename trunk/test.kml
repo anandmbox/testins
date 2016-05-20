@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+ <Document>
+  <name>ElectricKML</name>
+  <description>Sample Report for Electric utility inspection</description>
+  
+  <Style id="style1">
+   <LineStyle>
+    <color>990000ff</color>
+    <width>4</width>
+   </LineStyle>
+  </Style>
+  
+  <Style id="poleStyleRed">
+      <IconStyle>
+        <color>a1ff00ff</color>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://testinspect.googlecode.com/svn/trunk/icons/red/powerlinepole.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>7fffaaff</color>
+        <scale>1.5</scale>
+      </LabelStyle>
+  </Style> 
+
+  <Style id="poleStyleOrange">
+      <IconStyle>
+        <color>a1ff00ff</color>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://testinspect.googlecode.com/svn/trunk/icons/orange/powerlinepole.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>7fffaaff</color>
+        <scale>1.5</scale>
+      </LabelStyle>
+  </Style>
+  
+  <Style id="poleStyleGreen">
+      <IconStyle>
+        <color>a1ff00ff</color>
+        <scale>1.5</scale>
+        <Icon>
+          <href>https://testinspect.googlecode.com/svn/trunk/icons/green/powerlinepole.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>7fffaaff</color>
+        <scale>1.5</scale>
+      </LabelStyle>
+  </Style>
+  
+ 
+  <Placemark>
+   <name>Polyline 1</name>
+   <description></description>
+   <styleUrl>#style1</styleUrl>
+   <LineString>
+    <altitudeMode>relative</altitudeMode>
+    <coordinates>
+-117.0616,32.7789
+-117.0590,32.7781
+-117.0569,32.7777
+-117.0543,32.7772
+-117.0525,32.7769
+-117.0501,32.7762
+-117.0481,32.7754
+-117.0468,32.7748
+-117.0456,32.7741
+-117.0438,32.7732
+-117.0418,32.7727
+-117.0400,32.7727
+-117.0377,32.7731
+-117.0360,32.7736
+-117.0343,32.7739
+-117.0325,32.7740
+-117.0310,32.7737
+-117.0294,32.7731
+-117.0276,32.7724
+-117.0257,32.7716
+-117.0231,32.7710
+-117.0200,32.7712
+-117.0180,32.7721
+-117.0163,32.7729
+-117.0118,32.7746
+-117.0075,32.7763
+-117.0039,32.7775
+-117.0028,32.7782
+-117.0014,32.7789
+-116.9992,32.7794
+-116.9971,32.7794
+-116.9941,32.7793
+-116.9919,32.7792
+-116.9895,32.7792
+-116.9858,32.7791
+-116.9847,32.7793
+-116.9834,32.7799
+-116.9807,32.7834
+-116.9791,32.7858
+-116.9780,32.7880
+-116.9779,32.7900
+-116.9778,32.7914
+-116.9770,32.7964
+-116.9767,32.7985
+-116.9757,32.8001
+-116.9740,32.8017
+-116.9718,32.8028
+-116.9685,32.8032
+-116.9662,32.8033
+-116.9650,32.8034
+-116.9638,32.8038
+-116.9629,32.8045
+-116.9624,32.8054
+-116.9620,32.8099
+-116.9617,32.8141
+-116.9609,32.8166
+-116.9606,32.8200
+-116.9615,32.8237
+-116.9620,32.8273
+-116.9619,32.8344
+-116.9619,32.8391
+-116.9608,32.8425
+-116.9577,32.8456
+-116.9527,32.8498
+-116.9493,32.8533
+-116.9479,32.8544
+-116.9467,32.8552
+-116.9441,32.8556
+-116.9409,32.8559
+-116.9366,32.8570
+-116.9312,32.8586
+-116.9274,32.8597
+-116.9247,32.8608
+-116.9235,32.8621
+-116.9224,32.8635
+-116.9223,32.8664
+-116.9233,32.8712
+-116.9241,32.8738
+-116.9260,32.8797
+-116.9283,32.8820
+-116.9323,32.8866
+-116.9320,32.8916
+-116.9325,32.8949
+-116.9346,32.8984
+-116.9383,32.9028
+-116.9414,32.9060
+-116.9444,32.9078
+-116.9467,32.9101
+-116.9468,32.9130
+-116.9483,32.9143
+-116.9497,32.9160
+-116.9486,32.9185
+-116.9479,32.9209
+   </coordinates>
+   </LineString>
+  </Placemark>
+  
+    <Placemark>
+    <name>Rust on the pole</name>
+    <Point>
+      <coordinates>-116.9468,32.9130</coordinates>
+	  <styleUrl>#poleStyleOrange</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/corr1.gif' width='200' height='300' /><br/&gt;  
+				Testing Photo<br/> 
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Rust detected on the utility pole. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> A12345 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> Near Sycamore Canyon County Park. </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -116.9468 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.9130 </td>
+				<tr>
+				</table>
+			]]>  
+		</description> 
+    </Point>
+    </Placemark>	
+
+    <Placemark>
+    <name>Cracks in insulator</name>
+    <Point>
+      <coordinates>-116.9233,32.8712</coordinates>
+	  <styleUrl>#poleStyleRed</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/insulator3.gif' width='300' height='200' /><br/&gt;  
+				Testing Photo<br/> 
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Severe cracks in the insulator. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> A8945 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> San Vicente Creek </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -116.9233 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.8712 </td>
+				<tr>
+				</table>
+			]]>  
+		</description> 
+    </Point>
+    </Placemark>
+
+    <Placemark>
+    <name>Crack in insulator</name>
+    <Point>
+      <coordinates>-116.9441,32.8556</coordinates>
+	  <styleUrl>#poleStyleOrange</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/insulator2.gif' width='200' height='300' /><br/&gt;  
+				Testing Photo<br/> 
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Minor crack in the insulator. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> A845 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> San Vicente Fwy </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -116.9441 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.8556 </td>
+				<tr>
+				</table>
+			]]>  
+		</description> 
+    </Point>
+    </Placemark>	
+	
+    <Placemark>
+    <name>Rust on the Substation</name>
+    <Point>
+      <coordinates>-117.0481,32.7754</coordinates>
+	  <styleUrl>#poleStyleRed</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/corr3.gif' width='300' height='200' /><br/&gt;  
+				Testing Photo<br/>  
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Severe rust detected. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> B1856 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> Kumeyaay Hwy </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -117.0481 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.7754 </td>
+				<tr>
+				</table>
+			]]>  
+		</description> 
+    </Point>
+    </Placemark>
+
+   <Placemark>
+    <name>Possible Theft</name>
+    <Point>
+      <coordinates>-116.9780,32.7880</coordinates>
+	  <styleUrl>#poleStyleRed</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/theft.gif' width='300' height='200' /><br/&gt;  
+				Testing Photo<br/>
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Possible Theft. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> B12966 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> Kumeyaay Hwy </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -116.9780 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.7880 </td>
+				<tr>
+				</table>
+						]]>  
+		</description> 
+    </Point>
+    </Placemark>
+
+   <Placemark>
+    <name>Possible Misuse</name>
+    <Point>
+      <coordinates>-117.0360,32.7736</coordinates>
+	  <styleUrl>#poleStyleOrange</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/misuse.gif' width='300' height='200' /><br/&gt;  
+				Testing Photo<br/>
+							
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Possible process violation. Found a new cable.  </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> BE1356 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> Kumeyaay Hwy </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -117.0360 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.7736 </td>
+				<tr>
+				</table>
+				
+						]]>  
+		</description> 
+    </Point>
+    </Placemark>	
+
+  <Placemark>
+    <name>Crack in the insulator</name>
+    <Point>
+      <coordinates>-117.0075,32.7763</coordinates>
+	  <styleUrl>#poleStyleRed</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/insulator4.gif' width='300' height='200' /><br/&gt;  
+				Testing Photo<br/>				
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Multiple cracks detected on an insulator. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> BC103466 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> Kumeyaay Hwy </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -117.0075 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.7763 </td>
+				<tr>
+				</table>
+						]]>  
+		</description> 
+    </Point>
+    </Placemark>	
+	
+	
+	<Placemark>
+		<name>Vegetation Growth</name>
+		<Point>
+		  <coordinates>-116.9606,32.8200</coordinates>
+		  <styleUrl>#poleStyleRed</styleUrl>
+        <description><![CDATA[  
+			<img src='https://testinspect.googlecode.com/svn/trunk/img/tree1.gif' width='300' height='200' /><br/&gt;  
+				Testing Photo<br/>				
+				<table border="1" frame="box">
+				<tr> </tr>
+				<tr>
+					<td> <b> Observation </b> </td> 
+					<td> Vegetation growth detected near the power line. </td>
+				<tr>
+				<tr>
+					<td> <b>Asset ID </b> </td> 
+					<td> BC103366 </td>
+				<tr>
+				<tr>
+					<td> <b>Location</b> </td> 
+					<td> San Vicente Fwy </td>
+				<tr>
+				<tr>
+					<td> <b>Latitude</b> </td> 
+					<td> -116.9606 </td>
+				<tr>
+
+				<tr>
+					<td> <b>Longitude</b> </td> 
+					<td> 32.8200 </td>
+				<tr>
+				</table>
+						]]>  
+		</description>
+		</Point>
+    </Placemark>
+ </Document>
+</kml>
