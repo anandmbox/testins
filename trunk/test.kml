@@ -16,7 +16,7 @@
         <color>a1ff00ff</color>
         <scale>1.5</scale>
         <Icon>
-          <href>https://testinspect.googlecode.com/svn/trunk/icons/red/powerlinepole.png</href>
+          <href>https://github.com/anandmbox/testins/blob/master/trunk/icons/red/powerlinepole.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -30,7 +30,7 @@
         <color>a1ff00ff</color>
         <scale>1.5</scale>
         <Icon>
-          <href>https://testinspect.googlecode.com/svn/trunk/icons/orange/powerlinepole.png</href>
+          <href>https://github.com/anandmbox/testins/blob/master/trunk/icons/orange/powerlinepole.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -44,7 +44,7 @@
         <color>a1ff00ff</color>
         <scale>1.5</scale>
         <Icon>
-          <href>https://testinspect.googlecode.com/svn/trunk/icons/green/powerlinepole.png</href>
+          <href>https://github.com/anandmbox/testins/blob/master/trunk/icons/green/powerlinepole.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -164,7 +164,7 @@
       <coordinates>-116.9468,32.9130</coordinates>
 	  <styleUrl>#poleStyleOrange</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/corr1.gif' width='200' height='300' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/corr1.gif' width='200' height='300' /><br/&gt;  
 				Testing Photo<br/> 
 				<table border="1" frame="box">
 				<tr> </tr>
@@ -201,7 +201,7 @@
       <coordinates>-116.9233,32.8712</coordinates>
 	  <styleUrl>#poleStyleRed</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/insulator3.gif' width='300' height='200' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/insulator3.gif' width='300' height='200' /><br/&gt;  
 				Testing Photo<br/> 
 				<table border="1" frame="box">
 				<tr> </tr>
@@ -238,7 +238,7 @@
       <coordinates>-116.9441,32.8556</coordinates>
 	  <styleUrl>#poleStyleOrange</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/insulator2.gif' width='200' height='300' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/insulator2.gif' width='200' height='300' /><br/&gt;  
 				Testing Photo<br/> 
 				<table border="1" frame="box">
 				<tr> </tr>
@@ -275,7 +275,7 @@
       <coordinates>-117.0481,32.7754</coordinates>
 	  <styleUrl>#poleStyleRed</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/corr3.gif' width='300' height='200' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/corr3.gif' width='300' height='200' /><br/&gt;  
 				Testing Photo<br/>  
 				<table border="1" frame="box">
 				<tr> </tr>
@@ -312,7 +312,7 @@
       <coordinates>-116.9780,32.7880</coordinates>
 	  <styleUrl>#poleStyleRed</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/theft.gif' width='300' height='200' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/theft.gif' width='300' height='200' /><br/&gt;  
 				Testing Photo<br/>
 				<table border="1" frame="box">
 				<tr> </tr>
@@ -349,7 +349,7 @@
       <coordinates>-117.0360,32.7736</coordinates>
 	  <styleUrl>#poleStyleOrange</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/misuse.gif' width='300' height='200' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/misuse.gif' width='300' height='200' /><br/&gt;  
 				Testing Photo<br/>
 							
 				<table border="1" frame="box">
@@ -388,7 +388,7 @@
       <coordinates>-117.0075,32.7763</coordinates>
 	  <styleUrl>#poleStyleRed</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/insulator4.gif' width='300' height='200' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/insulator4.gif' width='300' height='200' /><br/&gt;  
 				Testing Photo<br/>				
 				<table border="1" frame="box">
 				<tr> </tr>
@@ -426,7 +426,7 @@
 		  <coordinates>-116.9606,32.8200</coordinates>
 		  <styleUrl>#poleStyleRed</styleUrl>
         <description><![CDATA[  
-			<img src='https://testinspect.googlecode.com/svn/trunk/img/tree1.gif' width='300' height='200' /><br/&gt;  
+			<img src='https://github.com/anandmbox/testins/blob/master/trunk/img/tree1.gif' width='300' height='200' /><br/&gt;  
 				Testing Photo<br/>				
 				<table border="1" frame="box">
 				<tr> </tr>
